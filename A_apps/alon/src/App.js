@@ -4,7 +4,12 @@ import Testimonio from './componentes/testimonio'
 function App() {
   return (
     <div className="App">
-      <Testimonio/>
+      <h1 className='titulo' >COMPONENTES</h1>
+      <Testimonio
+        nombreElemento='Componente1'/>
+
+      <Testimonio 
+        nombreElemento = 'Componente 2'/>
     </div>
   );
 }

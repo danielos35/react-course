@@ -1,20 +1,17 @@
 // 1. Paso # 1 importar React 
 import React from "react";
 
-function Testimonio(){
-  return(
-    <div className="contenedorPrincipal">
-      <img 
-        className="imagen"
-        src={"../imagenes/hero.png"}
-        alt="fotoEma"/>
+import "../styles/testimonio.css";
 
-        <div className="textoTestimonio">
-          
-
-        </div>
+function Testimonio(props) {
+  return (
+    <div className="contenedor-testimonio">
+      <div className="textoTestimonio">
+        <h1>{props.nombreElemento}</h1>
+        <p>{props.sub}</p>
+      </div>
     </div>
-  )
+  );
 }
 
 

@@ -1,0 +1,27 @@
+/* Se escriben los estilos globales de la aplicación */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 18px;
+  /* El resto de elementos se deben de seguir manejando con rem */
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 100%;
+
+  background-color: red;
+}
+
+.titulo{
+  color: blue;
+}

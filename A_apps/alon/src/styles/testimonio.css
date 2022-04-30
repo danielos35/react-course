@@ -1,0 +1,13 @@
+.contenedor-testimonio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    min-height: 200px;
+    min-width: 300px;
+
+    background: orange;
+
+
+}
