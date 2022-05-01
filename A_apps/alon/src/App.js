@@ -10,6 +10,10 @@ function App() {
 
       <Testimonio 
         nombreElemento = 'Componente 2'/>
+      
+      <Testimonio 
+        nombreElemento = 'Componente 3'/>
+    
     </div>
   );
 }

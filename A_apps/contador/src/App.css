@@ -1,0 +1,14 @@
+.contenedorPrincipal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100%;
+  background: red;
+}
+
+img{
+  width: 200px;
+  height: auto;
+}
