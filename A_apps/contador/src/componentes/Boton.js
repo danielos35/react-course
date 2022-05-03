@@ -1,18 +1,12 @@
 import React from "react";
 
 
-function Boton({text:texto,botonClic:esBotonClic, click:manejarClic}){
-    return(
-        <Boton
-            className= { esBotonClic?'clic':'reset' }
-            onCLick = {manejarClic}
-        >
-            {texto}
-        </Boton>
-
-
-    );
-
+function Boton({ text: texto, botonClic: esBotonClic, clic: manejarClic }) {
+  return (
+    <button className={esBotonClic ? "clic" : "reset"} onClick={manejarClic}>
+      {texto}
+    </button>
+  );
 }
 
 
